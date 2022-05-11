@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: hsl(60, 0%, 47%);
 }
 
 h1.title {
@@ -36,4 +37,21 @@ h4 {
     border-color: transparent;
     background-color: hsl(99, 22%, 69%);
     box-shadow: hsl(215, 32%, 27%) 0px 20px 30px -10px;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    max-height: 40px;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+.socialMedia {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    
 }
